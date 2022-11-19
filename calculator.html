@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arithmelator</title>
+        <link rel="icon" type="image/x-icon" href="calculator.jpg">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="calculator.js"></script>
+    </head>
+
+    <body>
+       
+        <h1>Welcome to Arithmelator!</h1>
+        <br>
+        <img src="calculator.jpg">
+        <br>
+        <br>
+       <marquee onmouseover="this.stop()" onmouseout="this.start()">What is Arithmelator? It is a simple calculator which gets it's name from 2 words, "Arithmetic" and "Calculator".</marquee>
+       <br>
+       <br>
+
+       <div id="first" >
+        <label>First Number</label> 
+        <input type="number" class="ibox" id="firstNo" placeholder="Please enter a number" >
+        <br>
+        <br>
+         </div>
+           <div id="second">
+            <label>Second Number</label>
+        <input type="number" class="ibox" id="secondNo" placeholder="Please enter a number">
+         </div>
+         <br>
+         <br>   
+         <button type="button" onclick="add()">Addition</button>
+         <button type="button" onclick="sub()">Subtraction</button>
+           <button type="button" onclick="multi()">Multiplication</button>
+         <button type="button" onclick="div()">Division</button>
+         <br>
+         <br>
+         <button type="button" class="btn btn-info" onclick="back()">Go Back to Home</button>
+        
+         <h6>If you have any bugs or suggestions, please contact the developer through his email : priyam26pramanik@gmail.com</h6>
+
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Art Flow Sketch Lab</title>
+    <link rel="stylesheet" href="paint.css">
+  </head>
+  <body background="paint.jpg">
+
+<div align="center">
+<h1 style="color: white;">🖌Art Flow Sketch Lab 🎨</h1>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+        <br><br >
+  <span style="color: white;">Color-:</span>
+  
+    <input type="text" id= "color" value="Blue">
+ 
+    <span style="color: white;">Brush Width-:</span>
+  
+    <input type="text" id= "width_of_line" value="2">
+  
+  
+  
+  <br><br>
+    <button id="clear_canvas" onclick="clearCanvas()">Clear Area</button>
+  <h4 style="color: white;">*Please note that draw only if the page is in it's original position, not while scrolling or else the drawing will not be going as per the pointer. And If you want to save your drawing, just take a snapshot of it*</h4>
+  <button  class="btn btn-info" id="home" onclick="goHome()"> GO back to Home</button>
+        </div>
+    <script src="paint.js"></script>
+  </body>
+</html>
